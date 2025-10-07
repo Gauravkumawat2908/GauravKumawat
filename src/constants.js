@@ -143,7 +143,7 @@ export const SkillsInfo = [
       image: carrentalLogo,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "MongoDB", "Express.js", "Node.js","Imagekit.io"],
       github: "https://github.com/Gauravkumawat2908/Car-Rental.git",
-      webapp: "https://car-rental-lilac-mu.vercel.app",
+      webapp: " ",
     },
      {
       id: 1,
@@ -154,7 +154,7 @@ export const SkillsInfo = [
       image: quickLogo,
       tags: ["React.js", "Node.js", "Express.js", "Neon PostgreSQL", "Clerk", "Cloudinary", "Gemini API"],
       github: "https://github.com/Gauravkumawat2908/Quick.ai",
-      webapp: "https://quick-ai-beta-topaz.vercel.app",
+      webapp: " ",
     },
     { 
       id: 2,
@@ -165,7 +165,7 @@ export const SkillsInfo = [
       image: sortLogo,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Gauravkumawat2908/sorting.git",
-      webapp: "https://sorting-henna.vercel.app",
+      webapp: " ",
     },
     
     
