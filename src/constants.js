@@ -48,7 +48,6 @@ export const SkillsInfo = [
     skills: [
       
       { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Postgre SQL', logo: postgreLogo },
@@ -135,29 +134,20 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    {
-      id: 0,
-      title: " Car Rental Platform",
-      description:
-        "Developed a full-stack Car Rental Web Application using the MERN stack, enabling users to browse, search, and book cars with secure JWT-based authentication and role-based access control for customers and administrators. Built a responsive, interactive UI with React.js and Tailwind CSS, integrating ImageKit API for optimized image storage, CDN-based delivery, and faster load times.Designed and implemented RESTful APIs in Node.js/Express.js for managing vehicles, bookings, user profiles,and payments, with data stored in MongoDB.",
-      image: carrentalLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "MongoDB", "Express.js", "Node.js","Imagekit.io"],
-      github: "https://github.com/Gauravkumawat2908/Car-Rental.git",
-      webapp: " ",
-    },
+    
      {
-      id: 1,
+      id: 0,
       title: "Quick.ai – Full Stack AI SaaS",
       description:
         "Built an AI-powered SaaS platform integrating multiple AI services, Gemini API, Clipdrop API for text generation,image creation, and content editing.Designed a responsive, modern UI using React.js and Tailwind CSS, ensuring smooth across devices performance and accessibility.Implemented authentication and role-based access control using Clerk, integrated Cloudinary for media storage,and developed secure RESTful APIs for AI content processing, with data stored in Neon PostgreSQL.",
         
       image: quickLogo,
-      tags: ["React.js", "Node.js", "Express.js", "Neon PostgreSQL", "Clerk", "Cloudinary", "Gemini API"],
+      tags: ["React.js", "Node.js", "Neon PostgreSQL", "Clerk", "Cloudinary", "Gemini API"],
       github: "https://github.com/Gauravkumawat2908/Quick.ai",
       webapp: " ",
     },
     { 
-      id: 2,
+      id: 1,
       title: "Sorting Algorithm Visualizer",
       description:
         "Developed an interactive web application using JavaScript, HTML and CSS to visualize and animate sorting algorithms.Built core functionality to display sorting processes step-by-step, aiding in the understanding of algorithmic behavior.Ensured responsive UI design and smooth animations for an educational, beginner-friendly experience in undstanding sorting concepts.",
