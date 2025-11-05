@@ -69,10 +69,9 @@ export const SkillsInfo = [
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      
-      
+      { name: 'Microsoft Excel'},
+      { name: 'PowerBI'},
+      { name: 'Canva'},
       
     ],
   },
