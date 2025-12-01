@@ -26,7 +26,7 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'Software Developer',
+                'Data Analyst',
   
               ]}
               speed={100}
@@ -40,8 +40,8 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I’m a full-stack developer skilled in building scalable and efficient web applications.
-            Specializing in the MERN stack, I work across both front-end and back-end.
+            I’m a full-stack developer and Dana Analyst skilled in building scalable and efficient web applications and Analyse the data.
+            Specializing in the MERN stack and Power BI, I work across both front-end and back-end.
             I focus on delivering seamless user experiences using modern technologies
           </p>
           {/* Resume Button */}
