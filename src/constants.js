@@ -29,6 +29,7 @@ import school from './assets/education_logo/school.png';
 import carrentalLogo from './assets/work_logo/carrental.jpeg';
 import quickLogo from './assets/work_logo/quick.png';
 import sortLogo from './assets/work_logo/sort.png';
+import tracker from './assets/work_logo/tracker.png';
 
 
 export const SkillsInfo = [
@@ -134,8 +135,19 @@ export const SkillsInfo = [
   
   export const projects = [
     
-     {
+     { 
       id: 0,
+      title: "Attendance Tracker ",
+      description:
+        "Developed a secure attendance management 4system with JWT-based authentication and encrypted passwords for teachers and students.Built RESTful APIs using Express.js and MongoDB to manage classes, subjects, enrollments, and attendance records.Created teacher and student dashboards for class management, attendance marking, and viewing detailed records.Implemented full CRUD operations with real-time updates and subject-wise attendance analytics for transparency.",
+        
+      image: tracker,
+      tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Authentication", "Tailwind CSS"],
+      github: "https://github.com/Gauravkumawat2908/Attendance-Tracker-",
+      webapp: " ",
+    },
+     {
+      id: 1,
       title: "Quick.ai – Full Stack AI SaaS",
       description:
         "Built an AI-powered SaaS platform integrating multiple AI services, Gemini API, Clipdrop API for text generation,image creation, and content editing.Designed a responsive, modern UI using React.js and Tailwind CSS, ensuring smooth across devices performance and accessibility.Implemented authentication and role-based access control using Clerk, integrated Cloudinary for media storage,and developed secure RESTful APIs for AI content processing, with data stored in Neon PostgreSQL.",
@@ -146,7 +158,7 @@ export const SkillsInfo = [
       webapp: " ",
     },
     { 
-      id: 1,
+      id: 2,
       title: "Sorting Algorithm Visualizer",
       description:
         "Developed an interactive web application using JavaScript, HTML and CSS to visualize and animate sorting algorithms.Built core functionality to display sorting processes step-by-step, aiding in the understanding of algorithmic behavior.Ensured responsive UI design and smooth animations for an educational, beginner-friendly experience in understanding sorting concepts.",
@@ -156,16 +168,6 @@ export const SkillsInfo = [
       github: "https://github.com/Gauravkumawat2908/sorting.git",
       webapp: " ",
     },
-     { 
-      id: 2,
-      title: "Attendance Tracker ",
-      description:
-        "Developed a secure attendance management 4system with JWT-based authentication and encrypted passwords for teachers and students.Built RESTful APIs using Express.js and MongoDB to manage classes, subjects, enrollments, and attendance records.Created teacher and student dashboards for class management, attendance marking, and viewing detailed records.Implemented full CRUD operations with real-time updates and subject-wise attendance analytics for transparency.",
-        
-      image: sortLogo,
-      tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Authentication", "Tailwind CSS"],
-      github: "https://github.com/Gauravkumawat2908/Attendance-Tracker-",
-      webapp: " ",
-    },
+    
     
   ];  
