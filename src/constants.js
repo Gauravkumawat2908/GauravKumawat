@@ -149,13 +149,23 @@ export const SkillsInfo = [
       id: 1,
       title: "Sorting Algorithm Visualizer",
       description:
-        "Developed an interactive web application using JavaScript, HTML and CSS to visualize and animate sorting algorithms.Built core functionality to display sorting processes step-by-step, aiding in the understanding of algorithmic behavior.Ensured responsive UI design and smooth animations for an educational, beginner-friendly experience in undstanding sorting concepts.",
+        "Developed an interactive web application using JavaScript, HTML and CSS to visualize and animate sorting algorithms.Built core functionality to display sorting processes step-by-step, aiding in the understanding of algorithmic behavior.Ensured responsive UI design and smooth animations for an educational, beginner-friendly experience in understanding sorting concepts.",
         
       image: sortLogo,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Gauravkumawat2908/sorting.git",
       webapp: " ",
     },
-    
+     { 
+      id: 2,
+      title: "Attendance Tracker ",
+      description:
+        "Developed a secure attendance management 4system with JWT-based authentication and encrypted passwords for teachers and students.Built RESTful APIs using Express.js and MongoDB to manage classes, subjects, enrollments, and attendance records.Created teacher and student dashboards for class management, attendance marking, and viewing detailed records.Implemented full CRUD operations with real-time updates and subject-wise attendance analytics for transparency.",
+        
+      image: sortLogo,
+      tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Authentication", "Tailwind CSS"],
+      github: "https://github.com/Gauravkumawat2908/Attendance-Tracker-",
+      webapp: " ",
+    },
     
   ];  
