@@ -27,7 +27,7 @@ import school from './assets/education_logo/school.png';
 
 // Project Section Logo's
 import carrentalLogo from './assets/work_logo/carrental.jpeg';
-import quickLogo from './assets/work_logo/quick.png';
+import canteen from './assets/work_logo/canteen.jpg';
 import sortLogo from './assets/work_logo/sort.png';
 import tracker from './assets/work_logo/tracker.png';
 
@@ -148,13 +148,13 @@ export const SkillsInfo = [
     },
      {
       id: 1,
-      title: "Quick.ai – Full Stack AI SaaS",
+      title: "Canteen Management",
       description:
-        "Built an AI-powered SaaS platform integrating multiple AI services, Gemini API, Clipdrop API for text generation,image creation, and content editing.Designed a responsive, modern UI using React.js and Tailwind CSS, ensuring smooth across devices performance and accessibility.Implemented authentication and role-based access control using Clerk, integrated Cloudinary for media storage,and developed secure RESTful APIs for AI content processing, with data stored in Neon PostgreSQL.",
+        "Architected a full-stack web application to automate canteen operations, including ordering, billing, and inventory management.Engineered RESTful APIs with Express.js and managed data persistence using MongoDB.Implemented secure user authentication, session handling, and role-based access for admins and customers",
         
-      image: quickLogo,
-      tags: ["React.js", "Node.js", "Neon PostgreSQL", "Clerk", "Cloudinary", "Gemini API"],
-      github: "https://github.com/Gauravkumawat2908/Quick.ai",
+      image: canteen,
+      tags: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
+      github: " ",
       webapp: " ",
     },
     { 
