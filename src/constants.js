@@ -143,7 +143,7 @@ export const SkillsInfo = [
         
       image: tracker,
       tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Authentication", "Tailwind CSS"],
-      github: "https://github.com/Gauravkumawat2908/Attendance-Tracker-",
+      github: "https://github.com/Gauravkumawat2908/Attendance-Tracker-.git",
       webapp: " ",
     },
      {
@@ -154,7 +154,7 @@ export const SkillsInfo = [
         
       image: canteen,
       tags: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-      github: " ",
+      github: "https://github.com/Gauravkumawat2908/Canteen-Management-.git",
       webapp: " ",
     },
     { 
